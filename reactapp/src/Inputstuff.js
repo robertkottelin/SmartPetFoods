@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 
 export default function Inputstuff() {
   const [pet, setPet] = useState({ type: '', weight: '', kcal: 0 });
+  const [food, setFood] = useState({ weight: '', kcal: '', price: '', pricePerDay: 0 });
 
   function handleTypeChange(event) {
-    setPet({ ...pet, type: event.target.value });
-    updateKcal(pet.weight, event.target.value);
+    const newType = event.target.value;
+    setPet({ ...pet, type: newType });
+    updateKcal(pet.weight, newType);
   }
 
   function handleWeightChange(event) {
@@ -20,15 +22,28 @@ export default function Inputstuff() {
   }
 
   function updateKcal(weight, type) {
-    const newKcal = weight ? 130 * Math.pow(parseFloat(weight), 0.75) : 0;
+    let newKcal = 0;
+    if (weight) {
+      if (type === 'dog') {
+        newKcal = 130 * Math.pow(parseFloat(weight), 0.75);
+      } else if (type === 'cat') {
+        newKcal = 100 * Math.pow(parseFloat(weight), 0.67);
+      }
+    }
     setPet({ ...pet, kcal: newKcal, type: type });
   }
+
+  function handleFoodWeightChange(event) {
+    const newFoodWeight = event.target.value;
+    setPet({ ...food, weight: newFoodWeight });
+  }
+
 
   return (
     <div>
       <label>
         <input
-          type="checkbox"
+          type="radio"
           value="dog"
           checked={pet.type === 'dog'}
           onChange={handleTypeChange}
@@ -38,7 +53,7 @@ export default function Inputstuff() {
       <br />
       <label>
         <input
-          type="checkbox"
+          type="radio"
           value="cat"
           checked={pet.type === 'cat'}
           onChange={handleTypeChange}
@@ -65,6 +80,15 @@ export default function Inputstuff() {
           readOnly
         />
       </label>
-    </div>
-  );
+      <br />
+      <label>
+        Food Package Weight (kg):
+        <input
+          type="number"
+          value={food.weight}
+          onChange={handleWeightChange}
+        />
+      </label>
+  </div>
+);
 }
