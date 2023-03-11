@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Nutrima Dog Health Digestion  (2 kg)",
+    "price": 249.0,
+    "weight": 2.0,
+    "kcal": 370.0
+  },
+  {
+    "name": "Nutrima Dog Health Digestion  (12 kg)",
+    "price": 929.0,
+    "weight": 12.0,
+    "kcal": 370.0
+  },
+  {
+    "name": "Purenatural Dog Adult Grain Free Lamb  (2 kg)",
+    "price": 239.0,
+    "weight": 2.0,
+    "kcal": 361.0
+  },
+  {
+    "name": "Purenatural Dog Adult Grain Free Lamb  (12 kg)",
+    "price": 829.0,
+    "weight": 12.0,
+    "kcal": 361.0
+  },
+  {
+    "name": "Purenatural Dog Adult Sensitive Duck  (2 kg)",
+    "price": 239.0,
+    "weight": 2.0,
+    "kcal": 373.0
+  },
+  {
+    "name": "Purenatural Dog Adult Sensitive Duck  (12 kg)",
+    "price": 789.0,
+    "weight": 12.0,
+    "kcal": 373.0
+  },
+  {
+    "name": "Purenatural Puppy Chicken  (2 kg)",
+    "price": 229.0,
+    "weight": 2.0,
+    "kcal": 399.0
+  },
+  {
+    "name": "Purenatural Puppy Chicken  (8 kg)",
+    "price": 589.0,
+    "weight": 8.0,
+    "kcal": 399.0
+  },
+  {
+    "name": "SMAAK Dog Adult Grain Free Fisk  (2 kg)",
+    "price": 149.0,
+    "weight": 2.0,
+    "kcal": 340.0
+  },
+  {
+    "name": "SMAAK Dog Adult Grain Free Fisk  (10 kg)",
+    "price": 459.0,
+    "weight": 10.0,
+    "kcal": 340.0
+  },
+  {
+    "name": "SMAAK Dog Adult Kyckling  (2 kg)",
+    "price": 139.0,
+    "weight": 2.0,
+    "kcal": 360.0
+  },
+  {
+    "name": "SMAAK Dog Adult Kyckling  (10 kg)",
+    "price": 429.0,
+    "weight": 10.0,
+    "kcal": 360.0
+  }
+]

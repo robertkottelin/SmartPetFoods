@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 
 export default function Inputstuff() {
   const [pet, setPet] = useState({ type: '', weight: '', kcal: 0 });
-  const [food, setFood] = useState({ weight: '', kcal: '', price: '', pricePerDay: 0 });
-
+  
   function handleTypeChange(event) {
     const newType = event.target.value;
     setPet({ ...pet, type: newType });

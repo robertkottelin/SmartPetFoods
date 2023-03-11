@@ -16,9 +16,6 @@ for filename in os.listdir("hrefs"):
         # Find the script tag containing the dataLayer information
         data_layer_script = soup.find("script", text=re.compile("var dataLayer"))
         
-
-
-
         # Extract the name, price, and weight from the dataLayer script and create a product object
         if data_layer_script:
             data_layer_string = str(data_layer_script.string)
@@ -53,4 +50,6 @@ for filename in os.listdir("hrefs"):
 
 # Convert the list of product objects to a JSON object and print it
 json_products = json.dumps(products, indent=2, ensure_ascii=False)
+with open("products.json", "w") as f:
+    json.dump(products, f, indent=2, ensure_ascii=False)
 print(json_products)
