@@ -33,11 +33,6 @@ export default function Inputstuff() {
     setPet({ ...pet, kcal: newKcal, type: type });
   }
 
-  function handleFoodWeightChange(event) {
-    const newFoodWeight = event.target.value;
-    setPet({ ...food, weight: newFoodWeight });
-  }
-
 
   return (
     <div>
@@ -81,14 +76,6 @@ export default function Inputstuff() {
         />
       </label>
       <br />
-      <label>
-        Food Package Weight (kg):
-        <input
-          type="number"
-          value={food.weight}
-          onChange={handleWeightChange}
-        />
-      </label>
   </div>
 );
 }

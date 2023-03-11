@@ -1,11 +1,11 @@
-import React from 'react';
-import Inputstuff from './Inputstuff';
-import './App.css';
+import React from 'react'
+import puppeteer from 'puppeteer';
 
 export default function App() {
   return (
-    <div>
-      <Inputstuff />
-    </div>
-  );
+    <div>App</div>
+  )
 }
+
+
+
