@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
-export default function Inputstuff() {
-  const [pet, setPet] = useState({ type: '', weight: '', kcal: 0 });
+function Inputstuff({ pet, setPet }) {
   
   function handleTypeChange(event) {
     const newType = event.target.value;
@@ -78,3 +77,5 @@ export default function Inputstuff() {
   </div>
 );
 }
+
+export default Inputstuff;
