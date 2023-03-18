@@ -48,7 +48,6 @@ async function scrapeProductsList(url) {
   }
   
   
-  
   async function parseProductDetails(url) {
     try {
       const html = await fetchPage(url);
@@ -77,7 +76,7 @@ async function scrapeProductsList(url) {
       const pricePerKgMatch = pricePerKgText.match(pricePerKgRegex);
       const pricePerKg = pricePerKgMatch ? parseFloat(pricePerKgMatch[1].replace(',', '.')) : null;
   
-      const weightText = $('.product_price .unit_price .nowrap').text();
+      const weightText = $('div.mb-4 .clear_after label').text();
       if (!weightText) {
         weightText = $('input.varradio.sale').next('label').text();
       }
