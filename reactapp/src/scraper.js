@@ -2,8 +2,6 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
 
-
-
 async function fetchPage(url) {
   try {
     const response = await axios.get(url);
@@ -76,20 +74,19 @@ async function scrapeProductsList(url) {
       const pricePerKgMatch = pricePerKgText.match(pricePerKgRegex);
       const pricePerKg = pricePerKgMatch ? parseFloat(pricePerKgMatch[1].replace(',', '.')) : null;
   
-      const weightText = $('div.mb-4 .clear_after label').text();
-      if (!weightText) {
-        weightText = $('input.varradio.sale').next('label').text();
-      }
-      const weightRegex = /(\d+(?:[.,]\d{1,2})?)\s*kg/;
-      const weightMatch = weightText.match(weightRegex);
-      const weight = weightMatch ? parseFloat(weightMatch[1].replace(',', '.')) : null;
-  
-      const kcalText = $('.border-bottom.mb3.container.dropdown-container .dropdown-content p').text();
+      const kcalText = $('div.dropdown-content p').text();
       const kcalRegex = /(\d+)\s*kcal\/100g/;
-      const kcalMatch = kcalText.match(kcalRegex);
-      const kcal = kcalMatch ? parseFloat(kcalMatch[1]) : null;
-  
-      return { name, price, weight, kcal, url, pricePerKg };
+      let kcalMatch = kcalText.match(kcalRegex);
+      let kcal = kcalMatch ? parseFloat(kcalMatch[1]) : null;
+      if (!kcalMatch) {
+        const kcalPerKgRegex = /(\d+)\s*kcal\/kg/;
+        kcalMatch2 = kcalText.match(kcalPerKgRegex);
+        kcal = kcalMatch2 ? parseFloat(kcalMatch2[1]) / 10 : null;
+      }
+      if (!kcalMatch2) {
+        kcal = null;
+      }
+      return { name, price, kcal, url, pricePerKg };
     } catch (error) {
       console.log(`Error while parsing product details: ${url} - ${error.message}`);
       return null;
@@ -99,20 +96,10 @@ async function scrapeProductsList(url) {
   
 
 async function main() {
-    const BASE_URL = 'https://www.arkenzoo.se'; 
-    const mainUrl = 'https://www.arkenzoo.se/hund-hundmat-torrfoder'; // Replace with the main URL where the products are listed
-    const productUrls = await scrapeProductsList(mainUrl);
-    console.log(productUrls)
+    const mainUrl = 'https://www.arkenzoo.se/hund-hundmat-torrfoder'; 
+    const productList = await scrapeProductsList(mainUrl);
 
-    const productsData = [];
-    for (const url of productUrls) {
-        const product = await parseProductDetails(url);
-        if (product) {
-        productsData.push(product);
-        }
-    }
-
-    fs.writeFileSync('products.json', JSON.stringify(productsData, null, 2));
+    fs.writeFileSync('products.json', JSON.stringify(productList, null, 2));
 }
 
 main();

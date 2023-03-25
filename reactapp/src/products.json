@@ -1,1 +1,282 @@
-[]
+[
+  {
+    "name": "Purenatural Puppy Chicken",
+    "price": 229,
+    "kcal": 399,
+    "url": "https://www.arkenzoo.se/purenatural-puppy-chicken?39575",
+    "pricePerKg": 114.5
+  },
+  {
+    "name": "Purenatural Puppy Chicken",
+    "price": 589,
+    "kcal": 399,
+    "url": "https://www.arkenzoo.se/purenatural-puppy-chicken?39576",
+    "pricePerKg": 73.63
+  },
+  {
+    "name": "Royal Canin Mini Puppy",
+    "price": 189,
+    "kcal": 407.2,
+    "url": "https://www.arkenzoo.se/royal-canin-mini-puppy?38812",
+    "pricePerKg": 236.25
+  },
+  {
+    "name": "Royal Canin Mini Puppy",
+    "price": 269,
+    "kcal": 407.2,
+    "url": "https://www.arkenzoo.se/royal-canin-mini-puppy?38814",
+    "pricePerKg": 134.5
+  },
+  {
+    "name": "Royal Canin Mini Puppy",
+    "price": 479,
+    "kcal": 407.2,
+    "url": "https://www.arkenzoo.se/royal-canin-mini-puppy?39922",
+    "pricePerKg": 119.75
+  },
+  {
+    "name": "Royal Canin Mini Puppy",
+    "price": 679,
+    "kcal": 407.2,
+    "url": "https://www.arkenzoo.se/royal-canin-mini-puppy?38815",
+    "pricePerKg": 84.88
+  },
+  {
+    "name": "SMAAK Dog Adult Grain Free Fisk",
+    "price": 149,
+    "kcal": 340,
+    "url": "https://www.arkenzoo.se/smaak-dog-adult-grain-free-fisk?82347",
+    "pricePerKg": 74.5
+  },
+  {
+    "name": "SMAAK Dog Adult Grain Free Fisk",
+    "price": 459,
+    "kcal": 340,
+    "url": "https://www.arkenzoo.se/smaak-dog-adult-grain-free-fisk?82348",
+    "pricePerKg": 45.9
+  },
+  {
+    "name": "Royal Canin Mini Adult",
+    "price": 269,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/royal-canin-mini-adult?38484",
+    "pricePerKg": 134.5
+  },
+  {
+    "name": "Royal Canin Mini Adult",
+    "price": 399,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/royal-canin-mini-adult?38485",
+    "pricePerKg": 99.75
+  },
+  {
+    "name": "Royal Canin Mini Adult",
+    "price": 599,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/royal-canin-mini-adult?38486",
+    "pricePerKg": 74.88
+  },
+  {
+    "name": "Royal Canin Dog Medium Adult",
+    "price": 399,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/royal-canin-medium-adult?38499",
+    "pricePerKg": 99.75
+  },
+  {
+    "name": "Royal Canin Dog Medium Adult",
+    "price": 659,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/royal-canin-medium-adult?38501",
+    "pricePerKg": 65.9
+  },
+  {
+    "name": "Royal Canin Dog Medium Adult",
+    "price": 899,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/royal-canin-medium-adult?38500",
+    "pricePerKg": 59.93
+  },
+  {
+    "name": "Nutrima Dog Health Digestion",
+    "price": 249,
+    "kcal": 370,
+    "url": "https://www.arkenzoo.se/nutrima-dog-health-digestion?42458",
+    "pricePerKg": 124.5
+  },
+  {
+    "name": "Nutrima Dog Health Digestion",
+    "price": 929,
+    "kcal": 370,
+    "url": "https://www.arkenzoo.se/nutrima-dog-health-digestion?42459",
+    "pricePerKg": 77.42
+  },
+  {
+    "name": "Purenatural Dog Adult Grain Free Lamb",
+    "price": 239,
+    "kcal": 361,
+    "url": "https://www.arkenzoo.se/purenatural-dog-adult-grain-free-lamb?41040",
+    "pricePerKg": 119.5
+  },
+  {
+    "name": "Purenatural Dog Adult Grain Free Lamb",
+    "price": 829,
+    "kcal": 361,
+    "url": "https://www.arkenzoo.se/purenatural-dog-adult-grain-free-lamb?41041",
+    "pricePerKg": 69.08
+  },
+  {
+    "name": "Royal Canin Medium Puppy",
+    "price": 449,
+    "kcal": 410.2,
+    "url": "https://www.arkenzoo.se/royal-canin-medium-puppy?38496",
+    "pricePerKg": 112.25
+  },
+  {
+    "name": "Royal Canin Medium Puppy",
+    "price": 729,
+    "kcal": 410.2,
+    "url": "https://www.arkenzoo.se/royal-canin-medium-puppy?38498",
+    "pricePerKg": 72.9
+  },
+  {
+    "name": "Royal Canin Medium Puppy",
+    "price": 949,
+    "kcal": 410.2,
+    "url": "https://www.arkenzoo.se/royal-canin-medium-puppy?38497",
+    "pricePerKg": 63.27
+  },
+  {
+    "name": "Purenatural Dog Adult Sensitive Duck",
+    "price": 239,
+    "kcal": 373,
+    "url": "https://www.arkenzoo.se/purenatural-dog-adult-sensitive-duck?39585",
+    "pricePerKg": 119.5
+  },
+  {
+    "name": "Purenatural Dog Adult Sensitive Duck",
+    "price": 789,
+    "kcal": 373,
+    "url": "https://www.arkenzoo.se/purenatural-dog-adult-sensitive-duck?39586",
+    "pricePerKg": 65.75
+  },
+  {
+    "name": "Royal Canin Dog Maxi Puppy",
+    "price": 449,
+    "kcal": 377.9,
+    "url": "https://www.arkenzoo.se/royal-canin-maxi-puppy?38507",
+    "pricePerKg": 112.25
+  },
+  {
+    "name": "Royal Canin Dog Maxi Puppy",
+    "price": 999,
+    "kcal": 377.9,
+    "url": "https://www.arkenzoo.se/royal-canin-maxi-puppy?38373",
+    "pricePerKg": 66.6
+  },
+  {
+    "name": "Royal Canin Maxi Adult",
+    "price": 429,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/royal-canin-maxi-adult?38509",
+    "pricePerKg": 107.25
+  },
+  {
+    "name": "Royal Canin Maxi Adult",
+    "price": 659,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/royal-canin-maxi-adult?38511",
+    "pricePerKg": 65.9
+  },
+  {
+    "name": "Royal Canin Maxi Adult",
+    "price": 899,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/royal-canin-maxi-adult?38510",
+    "pricePerKg": 59.93
+  },
+  {
+    "name": "SMAAK Dog Adult Kyckling",
+    "price": 139,
+    "kcal": 360,
+    "url": "https://www.arkenzoo.se/smaak-dog-adult-kyckling?82352",
+    "pricePerKg": 69.5
+  },
+  {
+    "name": "SMAAK Dog Adult Kyckling",
+    "price": 429,
+    "kcal": 360,
+    "url": "https://www.arkenzoo.se/smaak-dog-adult-kyckling?82354",
+    "pricePerKg": 42.9
+  },
+  {
+    "name": "Canagan Country Game",
+    "price": 349,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/canagan-country-game?39404",
+    "pricePerKg": 174.5
+  },
+  {
+    "name": "Canagan Country Game",
+    "price": 779,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/canagan-country-game?39405",
+    "pricePerKg": 129.83
+  },
+  {
+    "name": "Canagan Country Game",
+    "price": 1,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/canagan-country-game?39406",
+    "pricePerKg": 116.58
+  },
+  {
+    "name": "Acana Dog Singles Grass-Fed Lamb",
+    "price": 449,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/acana-dog-singles-grass-fed-lamb?44005",
+    "pricePerKg": 224.5
+  },
+  {
+    "name": "Acana Dog Singles Grass-Fed Lamb",
+    "price": 819,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/acana-dog-singles-grass-fed-lamb?44006",
+    "pricePerKg": 136.5
+  },
+  {
+    "name": "Acana Dog Singles Grass-Fed Lamb",
+    "price": 1,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/acana-dog-singles-grass-fed-lamb?44007",
+    "pricePerKg": 113.95
+  },
+  {
+    "name": "Acana Dog Singles Grass-Fed Lamb",
+    "price": 1,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/acana-dog-singles-grass-fed-lamb?44008",
+    "pricePerKg": 94.06
+  },
+  {
+    "name": "Royal Canin Mini Digestive Care",
+    "price": 199,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/royal-canin-mini-digestive-care-p45706?66383",
+    "pricePerKg": 199
+  },
+  {
+    "name": "Royal Canin Mini Digestive Care",
+    "price": 449,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/royal-canin-mini-digestive-care-p45706?66384",
+    "pricePerKg": 149.67
+  },
+  {
+    "name": "Royal Canin Mini Digestive Care",
+    "price": 879,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/royal-canin-mini-digestive-care-p45706?66385",
+    "pricePerKg": 109.88
+  }
+]
