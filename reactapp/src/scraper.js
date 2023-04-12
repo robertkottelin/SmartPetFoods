@@ -45,7 +45,7 @@ async function scrapeProductsList(url) {
     return productList;
   }
   
-  
+
   async function parseProductDetails(url) {
     try {
       const html = await fetchPage(url);
@@ -57,8 +57,24 @@ async function scrapeProductsList(url) {
   
       const $ = cheerio.load(html);
       const name = $('div.col-12.lg-col-6.md-col-6.md-none h1[itemprop="name"]').text();
+
+      let weight;
+      const weightElements = $('#page_main *:contains("kg")').filter((_, element) => {
+        const weightText = $(element).text();
+        const weightRegex = /(\d+(?:[.,]\d{1,2})?)\s*kg/;
+        const weightMatch = weightText.match(weightRegex);
+        if (weightMatch) {
+          weight = parseFloat(weightMatch[1].replace(',', '.'));
+          return true;
+        }
+        return false;
+      });
+      // If no weight is found, set it to an empty string
+      if (weightElements.length === 0) {
+        weight = '';
+      }
   
-      const priceText = $('div.mb-2 .product_price .price_font.price.bold.currency_sek.hide span').text();
+      let priceText = $('div.mb-2 .product_price .price_font.price.bold.currency_sek.hide span').text();
       if (!priceText) {
         priceText = $('div.mb-2 .product_price .price_font.sale.bold.currency_sek.hide').text();
       }
@@ -66,27 +82,39 @@ async function scrapeProductsList(url) {
       const priceMatch = priceText.match(priceRegex);
       const price = priceMatch ? parseFloat(priceMatch[1].replace(',', '.')) : null;
 
-      const pricePerKgText = $('.product_price .unit_price .nowrap').text();
+      let pricePerKgText = $('.product_price .unit_price .nowrap').text();
       if (!pricePerKgText) {
         pricePerKgText = $('div.mb-2 .product_price .sale_normal currency_sek hide').text();
       }
       const pricePerKgRegex = /(\d+(?:[.,]\d{1,2})?)\s*kr/;
       const pricePerKgMatch = pricePerKgText.match(pricePerKgRegex);
       const pricePerKg = pricePerKgMatch ? parseFloat(pricePerKgMatch[1].replace(',', '.')) : null;
-  
-      const kcalText = $('div.dropdown-content p').text();
-      const kcalRegex = /(\d+)\s*kcal\/100g/;
-      let kcalMatch = kcalText.match(kcalRegex);
-      let kcal = kcalMatch ? parseFloat(kcalMatch[1]) : null;
-      if (!kcalMatch) {
+      
+      // I want to regex out the number from 360 kcal/100g, the real kcal amount can be anythingconst kcalRegex = /(\d+)\s*kcal/;
+
+      let kcal;
+      const kcalElements = $('#page_main *:contains("kcal")').filter((_, element) => {
+        const kcalText = $(element).text();
+        const kcalRegex = /(\d+)\s*kcal\/100g/;
         const kcalPerKgRegex = /(\d+)\s*kcal\/kg/;
-        kcalMatch2 = kcalText.match(kcalPerKgRegex);
-        kcal = kcalMatch2 ? parseFloat(kcalMatch2[1]) / 10 : null;
-      }
-      if (!kcalMatch2) {
+        let kcalMatch = kcalText.match(kcalRegex);
+        if (!kcalMatch) {
+          kcalMatch = kcalText.match(kcalPerKgRegex);
+          if (kcalMatch) {
+            kcal = parseFloat(kcalMatch[1]) / 10;
+            return true;
+          }
+        } else {
+          kcal = parseFloat(kcalMatch[1]);
+          return true;
+        }
+        return false;
+      });
+      
+      if (kcalElements.length === 0) {
         kcal = null;
-      }
-      return { name, price, kcal, url, pricePerKg };
+      }    
+      return { name, weight, price, kcal, url, pricePerKg };
     } catch (error) {
       console.log(`Error while parsing product details: ${url} - ${error.message}`);
       return null;

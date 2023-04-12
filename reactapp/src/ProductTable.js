@@ -7,22 +7,27 @@ export default function ProductTable({ sortedProducts, handleHeaderClick }) {
         <thead>
           <tr>
             <th onClick={() => handleHeaderClick('name')}>Name</th>
-            <th onClick={() => handleHeaderClick('price')}>Price</th>
-            <th onClick={() => handleHeaderClick('pricePerKg')}>Weight</th>
+            <th onClick={() => handleHeaderClick('weight')}>Weight</th>
+            <th onClick={() => handleHeaderClick('pricePerKg')}>Price/kg</th>
             <th onClick={() => handleHeaderClick('kcal')}>kcal</th>
-            <th onClick={() => handleHeaderClick('price/day')}>Price/day</th> {/* Add this header */}
+            <th onClick={() => handleHeaderClick('costPerDay')}>Price/day</th>
           </tr>
         </thead>
       <tbody>
-        {sortedProducts.map((item, index) => (
-        <tr key={index}>
-            <td>{item.name}</td>
-            <td>{item.price}</td>
-            <td>{item.pricePerKg}</td>
-            <td>{item.kcal}</td>
-            <td>{item.pricePerDay.toFixed(2)}</td>
-        </tr>
-        ))}
+        {sortedProducts.map((item, index) => {
+          if (item.costPerDay !== null && !isNaN(item.costPerDay) && item.costPerDay !== Infinity) {
+            return (
+              <tr key={index}>
+                <td>{item.name}</td>
+                <td>{item.weight}</td>
+                <td>{item.pricePerKg}</td>
+                <td>{item.kcal}</td>
+                <td>{item.costPerDay}</td>
+              </tr>
+            );
+          }
+          return null;
+        })}
       </tbody>
     </table>
   );

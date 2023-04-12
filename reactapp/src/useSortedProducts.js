@@ -5,30 +5,32 @@ export function useSortedProducts(productsData, pet) {
   const [sortBy, setSortBy] = useState('name');
   const [sortOrder, setSortOrder] = useState('asc');
 
+  console.log(productsData)
+
   const sortedProducts = useMemo(() => {
     return productsData.map(item => {
-      
-    const kcalPerKg = (item.kcal * 10); // kcal value is per 100g, so multiply by 10 to get kcal per kg
-    const kgPerDay = pet.kcal / kcalPerKg; // Calculate the kg of food required per day
-    const pricePerKg = item.pricePerKg; // Calculate the price per kg of the food
-    const pricePerDay = kgPerDay * pricePerKg; // Calculate the price per day
-    return { ...item, pricePerDay };
+
+      let kcal = item.kcal; // kcal value is per 100g
+      let name = item.name; // name of the product
+      let pricePerKg = item.pricePerKg; // price per kg
+      let url = item.url; // url to the product
+
+      let petcalories = pet.kcal; // required kcal value per day for the pet
+          
+      let kcalPerKg = (kcal * 10); // kcal value is per 100g, so multiply by 10 to get kcal per kg
+
+      // calculate the cost per day from the price per kg and the kcal value
+      let costPerDay = ((petcalories / kcalPerKg) * pricePerKg);
+
+      return { ...item, costPerDay };
   
     }).sort((a, b) => {
       
     const isDesc = sortOrder === 'desc';
     const [first, second] = isDesc ? [b, a] : [a, b];
     switch (sortBy) {
-      case 'name':
-        return first.name.localeCompare(second.name);
-      case 'price':
-        return first.price - second.price;
-      case 'weight':
-        return first.weight - second.weight;
-      case 'kcal':
-        return first.kcal - second.kcal;
-      case 'price/day':
-        return first.pricePerDay - second.pricePerDay;
+      case 'costPerDay':
+        return first.costPerDay - second.costPerDay;
       default:
         return 0;
     }

@@ -1,20 +1,143 @@
 [
   {
-    "name": "Purenatural Puppy Chicken",
-    "price": 229,
-    "kcal": 399,
-    "url": "https://www.arkenzoo.se/purenatural-puppy-chicken?39575",
-    "pricePerKg": 114.5
+    "name": "Brit Care Dog Adult Hypoallergenic Weight Loss Rabbit",
+    "weight": 1,
+    "price": 139,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/brit-care-dog-adult-hypoallergenic-weight-loss-rabbit?87443",
+    "pricePerKg": null
+  },
+  {
+    "name": "Brit Care Dog Adult Hypoallergenic Weight Loss Rabbit",
+    "weight": 3,
+    "price": 339,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/brit-care-dog-adult-hypoallergenic-weight-loss-rabbit?87445",
+    "pricePerKg": null
+  },
+  {
+    "name": "Brit Care Dog Adult Hypoallergenic Weight Loss Rabbit",
+    "weight": 12,
+    "price": 859,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/brit-care-dog-adult-hypoallergenic-weight-loss-rabbit?87444",
+    "pricePerKg": null
+  },
+  {
+    "name": "Brit Care Dog Adult Medium Breed Hypoallergenic Lamb",
+    "weight": 1,
+    "price": 139,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/brit-care-dog-adult-medium-breed-hypoallergenic-lamb?87437",
+    "pricePerKg": null
+  },
+  {
+    "name": "Brit Care Dog Adult Medium Breed Hypoallergenic Lamb",
+    "weight": 3,
+    "price": 329,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/brit-care-dog-adult-medium-breed-hypoallergenic-lamb?87438",
+    "pricePerKg": null
+  },
+  {
+    "name": "Brit Care Dog Adult Medium Breed Hypoallergenic Lamb",
+    "weight": 12,
+    "price": 879,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/brit-care-dog-adult-medium-breed-hypoallergenic-lamb?87436",
+    "pricePerKg": null
+  },
+  {
+    "name": "Brit Care Puppy Sustainable Chicken & Insect",
+    "weight": 1,
+    "price": 129,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/brit-care-puppy-sustainable-chicken-insect?87378",
+    "pricePerKg": 129
+  },
+  {
+    "name": "Brit Care Puppy Sustainable Chicken & Insect",
+    "weight": 3,
+    "price": 309,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/brit-care-puppy-sustainable-chicken-insect?87377",
+    "pricePerKg": 103
+  },
+  {
+    "name": "Brit Care Puppy Sustainable Chicken & Insect",
+    "weight": 12,
+    "price": 819,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/brit-care-puppy-sustainable-chicken-insect?87376",
+    "pricePerKg": 68.25
+  },
+  {
+    "name": "Brit Care Puppy Grain Free Salmon",
+    "weight": 1,
+    "price": 149,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/brit-care-puppy-grain-free-salmon?87408",
+    "pricePerKg": 149
+  },
+  {
+    "name": "Brit Care Puppy Grain Free Salmon",
+    "weight": 3,
+    "price": 349,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/brit-care-puppy-grain-free-salmon?87407",
+    "pricePerKg": 116.33
+  },
+  {
+    "name": "Brit Care Puppy Grain Free Salmon",
+    "weight": 12,
+    "price": 869,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/brit-care-puppy-grain-free-salmon?87409",
+    "pricePerKg": 72.42
+  },
+  {
+    "name": "Brit Care Dog Adult Sensitive Grain Free Venison",
+    "weight": 1,
+    "price": 149,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/brit-care-dog-adult-sensitive-grain-free-venison?87426",
+    "pricePerKg": 149
+  },
+  {
+    "name": "Brit Care Dog Adult Sensitive Grain Free Venison",
+    "weight": 3,
+    "price": 369,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/brit-care-dog-adult-sensitive-grain-free-venison?87427",
+    "pricePerKg": 123
+  },
+  {
+    "name": "Brit Care Dog Adult Sensitive Grain Free Venison",
+    "weight": 12,
+    "price": 889,
+    "kcal": null,
+    "url": "https://www.arkenzoo.se/brit-care-dog-adult-sensitive-grain-free-venison?87428",
+    "pricePerKg": 74.08
   },
   {
     "name": "Purenatural Puppy Chicken",
-    "price": 589,
+    "weight": 35,
+    "price": 249,
+    "kcal": 399,
+    "url": "https://www.arkenzoo.se/purenatural-puppy-chicken?39575",
+    "pricePerKg": 124.5
+  },
+  {
+    "name": "Purenatural Puppy Chicken",
+    "weight": 35,
+    "price": 609,
     "kcal": 399,
     "url": "https://www.arkenzoo.se/purenatural-puppy-chicken?39576",
-    "pricePerKg": 73.63
+    "pricePerKg": 76.13
   },
   {
     "name": "Royal Canin Mini Puppy",
+    "weight": 10,
     "price": 189,
     "kcal": 407.2,
     "url": "https://www.arkenzoo.se/royal-canin-mini-puppy?38812",
@@ -22,6 +145,7 @@
   },
   {
     "name": "Royal Canin Mini Puppy",
+    "weight": 10,
     "price": 269,
     "kcal": 407.2,
     "url": "https://www.arkenzoo.se/royal-canin-mini-puppy?38814",
@@ -29,6 +153,7 @@
   },
   {
     "name": "Royal Canin Mini Puppy",
+    "weight": 10,
     "price": 479,
     "kcal": 407.2,
     "url": "https://www.arkenzoo.se/royal-canin-mini-puppy?39922",
@@ -36,6 +161,7 @@
   },
   {
     "name": "Royal Canin Mini Puppy",
+    "weight": 10,
     "price": 679,
     "kcal": 407.2,
     "url": "https://www.arkenzoo.se/royal-canin-mini-puppy?38815",
@@ -43,6 +169,7 @@
   },
   {
     "name": "SMAAK Dog Adult Grain Free Fisk",
+    "weight": 23,
     "price": 149,
     "kcal": 340,
     "url": "https://www.arkenzoo.se/smaak-dog-adult-grain-free-fisk?82347",
@@ -50,6 +177,7 @@
   },
   {
     "name": "SMAAK Dog Adult Grain Free Fisk",
+    "weight": 23,
     "price": 459,
     "kcal": 340,
     "url": "https://www.arkenzoo.se/smaak-dog-adult-grain-free-fisk?82348",
@@ -57,6 +185,7 @@
   },
   {
     "name": "Royal Canin Mini Adult",
+    "weight": 2,
     "price": 269,
     "kcal": null,
     "url": "https://www.arkenzoo.se/royal-canin-mini-adult?38484",
@@ -64,6 +193,7 @@
   },
   {
     "name": "Royal Canin Mini Adult",
+    "weight": 2,
     "price": 399,
     "kcal": null,
     "url": "https://www.arkenzoo.se/royal-canin-mini-adult?38485",
@@ -71,6 +201,7 @@
   },
   {
     "name": "Royal Canin Mini Adult",
+    "weight": 2,
     "price": 599,
     "kcal": null,
     "url": "https://www.arkenzoo.se/royal-canin-mini-adult?38486",
@@ -78,6 +209,7 @@
   },
   {
     "name": "Royal Canin Dog Medium Adult",
+    "weight": 15,
     "price": 399,
     "kcal": null,
     "url": "https://www.arkenzoo.se/royal-canin-medium-adult?38499",
@@ -85,6 +217,7 @@
   },
   {
     "name": "Royal Canin Dog Medium Adult",
+    "weight": 15,
     "price": 659,
     "kcal": null,
     "url": "https://www.arkenzoo.se/royal-canin-medium-adult?38501",
@@ -92,6 +225,7 @@
   },
   {
     "name": "Royal Canin Dog Medium Adult",
+    "weight": 15,
     "price": 899,
     "kcal": null,
     "url": "https://www.arkenzoo.se/royal-canin-medium-adult?38500",
@@ -99,34 +233,39 @@
   },
   {
     "name": "Nutrima Dog Health Digestion",
-    "price": 249,
+    "weight": 2,
+    "price": 299,
     "kcal": 370,
     "url": "https://www.arkenzoo.se/nutrima-dog-health-digestion?42458",
-    "pricePerKg": 124.5
+    "pricePerKg": 149.5
   },
   {
     "name": "Nutrima Dog Health Digestion",
-    "price": 929,
+    "weight": 2,
+    "price": 1,
     "kcal": 370,
     "url": "https://www.arkenzoo.se/nutrima-dog-health-digestion?42459",
-    "pricePerKg": 77.42
+    "pricePerKg": 91.58
   },
   {
     "name": "Purenatural Dog Adult Grain Free Lamb",
-    "price": 239,
+    "weight": 4.5,
+    "price": 289,
     "kcal": 361,
     "url": "https://www.arkenzoo.se/purenatural-dog-adult-grain-free-lamb?41040",
-    "pricePerKg": 119.5
+    "pricePerKg": 144.5
   },
   {
     "name": "Purenatural Dog Adult Grain Free Lamb",
-    "price": 829,
+    "weight": 4.5,
+    "price": 949,
     "kcal": 361,
     "url": "https://www.arkenzoo.se/purenatural-dog-adult-grain-free-lamb?41041",
-    "pricePerKg": 69.08
+    "pricePerKg": 79.08
   },
   {
     "name": "Royal Canin Medium Puppy",
+    "weight": 4,
     "price": 449,
     "kcal": 410.2,
     "url": "https://www.arkenzoo.se/royal-canin-medium-puppy?38496",
@@ -134,6 +273,7 @@
   },
   {
     "name": "Royal Canin Medium Puppy",
+    "weight": 10,
     "price": 729,
     "kcal": 410.2,
     "url": "https://www.arkenzoo.se/royal-canin-medium-puppy?38498",
@@ -141,6 +281,7 @@
   },
   {
     "name": "Royal Canin Medium Puppy",
+    "weight": 15,
     "price": 949,
     "kcal": 410.2,
     "url": "https://www.arkenzoo.se/royal-canin-medium-puppy?38497",
@@ -148,20 +289,23 @@
   },
   {
     "name": "Purenatural Dog Adult Sensitive Duck",
-    "price": 239,
+    "weight": 12,
+    "price": 289,
     "kcal": 373,
     "url": "https://www.arkenzoo.se/purenatural-dog-adult-sensitive-duck?39585",
-    "pricePerKg": 119.5
+    "pricePerKg": 144.5
   },
   {
     "name": "Purenatural Dog Adult Sensitive Duck",
-    "price": 789,
+    "weight": 12,
+    "price": 899,
     "kcal": 373,
     "url": "https://www.arkenzoo.se/purenatural-dog-adult-sensitive-duck?39586",
-    "pricePerKg": 65.75
+    "pricePerKg": 74.92
   },
   {
     "name": "Royal Canin Dog Maxi Puppy",
+    "weight": 44,
     "price": 449,
     "kcal": 377.9,
     "url": "https://www.arkenzoo.se/royal-canin-maxi-puppy?38507",
@@ -169,6 +313,7 @@
   },
   {
     "name": "Royal Canin Dog Maxi Puppy",
+    "weight": 44,
     "price": 999,
     "kcal": 377.9,
     "url": "https://www.arkenzoo.se/royal-canin-maxi-puppy?38373",
@@ -176,6 +321,7 @@
   },
   {
     "name": "Royal Canin Maxi Adult",
+    "weight": 18,
     "price": 429,
     "kcal": null,
     "url": "https://www.arkenzoo.se/royal-canin-maxi-adult?38509",
@@ -183,6 +329,7 @@
   },
   {
     "name": "Royal Canin Maxi Adult",
+    "weight": 18,
     "price": 659,
     "kcal": null,
     "url": "https://www.arkenzoo.se/royal-canin-maxi-adult?38511",
@@ -190,6 +337,7 @@
   },
   {
     "name": "Royal Canin Maxi Adult",
+    "weight": 18,
     "price": 899,
     "kcal": null,
     "url": "https://www.arkenzoo.se/royal-canin-maxi-adult?38510",
@@ -197,6 +345,7 @@
   },
   {
     "name": "SMAAK Dog Adult Kyckling",
+    "weight": 2,
     "price": 139,
     "kcal": 360,
     "url": "https://www.arkenzoo.se/smaak-dog-adult-kyckling?82352",
@@ -204,6 +353,7 @@
   },
   {
     "name": "SMAAK Dog Adult Kyckling",
+    "weight": 2,
     "price": 429,
     "kcal": 360,
     "url": "https://www.arkenzoo.se/smaak-dog-adult-kyckling?82354",
@@ -211,6 +361,7 @@
   },
   {
     "name": "Canagan Country Game",
+    "weight": 2,
     "price": 349,
     "kcal": null,
     "url": "https://www.arkenzoo.se/canagan-country-game?39404",
@@ -218,6 +369,7 @@
   },
   {
     "name": "Canagan Country Game",
+    "weight": 2,
     "price": 779,
     "kcal": null,
     "url": "https://www.arkenzoo.se/canagan-country-game?39405",
@@ -225,6 +377,7 @@
   },
   {
     "name": "Canagan Country Game",
+    "weight": 2,
     "price": 1,
     "kcal": null,
     "url": "https://www.arkenzoo.se/canagan-country-game?39406",
@@ -232,6 +385,7 @@
   },
   {
     "name": "Acana Dog Singles Grass-Fed Lamb",
+    "weight": 45,
     "price": 449,
     "kcal": null,
     "url": "https://www.arkenzoo.se/acana-dog-singles-grass-fed-lamb?44005",
@@ -239,6 +393,7 @@
   },
   {
     "name": "Acana Dog Singles Grass-Fed Lamb",
+    "weight": 45,
     "price": 819,
     "kcal": null,
     "url": "https://www.arkenzoo.se/acana-dog-singles-grass-fed-lamb?44006",
@@ -246,6 +401,7 @@
   },
   {
     "name": "Acana Dog Singles Grass-Fed Lamb",
+    "weight": 45,
     "price": 1,
     "kcal": null,
     "url": "https://www.arkenzoo.se/acana-dog-singles-grass-fed-lamb?44007",
@@ -253,30 +409,10 @@
   },
   {
     "name": "Acana Dog Singles Grass-Fed Lamb",
+    "weight": 4,
     "price": 1,
     "kcal": null,
     "url": "https://www.arkenzoo.se/acana-dog-singles-grass-fed-lamb?44008",
     "pricePerKg": 94.06
-  },
-  {
-    "name": "Royal Canin Mini Digestive Care",
-    "price": 199,
-    "kcal": null,
-    "url": "https://www.arkenzoo.se/royal-canin-mini-digestive-care-p45706?66383",
-    "pricePerKg": 199
-  },
-  {
-    "name": "Royal Canin Mini Digestive Care",
-    "price": 449,
-    "kcal": null,
-    "url": "https://www.arkenzoo.se/royal-canin-mini-digestive-care-p45706?66384",
-    "pricePerKg": 149.67
-  },
-  {
-    "name": "Royal Canin Mini Digestive Care",
-    "price": 879,
-    "kcal": null,
-    "url": "https://www.arkenzoo.se/royal-canin-mini-digestive-care-p45706?66385",
-    "pricePerKg": 109.88
   }
 ]
